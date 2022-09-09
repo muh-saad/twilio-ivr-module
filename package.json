@@ -1,0 +1,20 @@
+{
+  "name": "twilio-ivr-module",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "description": "A Twilio IVR module that forwards the call to a number or records voicemail and saves it in the database using Node.js",
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1",
+    "dotenv": "^14.3.2",
+    "jade": "~1.11.0",
+    "pg": "^8.7.1",
+    "serve-favicon": "~2.3.2",
+    "stylus": "0.54.5",
+    "twilio": "^3.0.0-rc.17"
+  }
+}
